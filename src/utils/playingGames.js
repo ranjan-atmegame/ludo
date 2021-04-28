@@ -139,6 +139,8 @@ const playGameWithFriend = (id, userName, game, room) => {
             }
         }
     }
+
+    return playingGames
 }
 
 //Add new player in list of playing games
